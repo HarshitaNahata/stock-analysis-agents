@@ -1,0 +1,42 @@
+# 🎥 Demo Script: Multi-Agent Stock Analysis System
+
+## 🎙️ Introduction
+"Hi, I'm excited to demo our Multi-Agent System for stock analysis, built using Google ADK and Alpha Vantage API."
+
+## 🔧 Architecture Overview
+"This system is modular and consists of five agents:
+- `identify_ticker`: Parses stock name and gets ticker
+- `ticker_news`: Fetches latest news using Alpha Vantage
+- `ticker_price`: Retrieves real-time price
+- `ticker_price_change`: Calculates change over time
+- `ticker_analysis`: Combines news + price for insights"
+
+## 💻 Demo Start
+
+### 1. Launching the System
+"Let’s start by running the main orchestrator."
+```bash
+python main_orchestrator.py
+```
+
+### 2. Query 1: "Why did Tesla stock drop today?"
+- Shows `identify_ticker` → TSLA
+- `ticker_analysis` pulls price and news
+
+### 3. Query 2: "How has Nvidia stock changed in the last 7 days?"
+- `identify_ticker` → NVDA
+- `ticker_price_change` shows % change
+
+### 4. Query 3: "What's the current price of Apple?"
+- `identify_ticker` → AAPL
+- `ticker_price` returns price
+
+### 5. Query 4: "Show me recent news about Palantir."
+- `identify_ticker` → PLTR
+- `ticker_news` displays headlines
+
+## 🧠 Wrap-Up
+"This system uses agent modularity for easy extensibility and integrates data + news for intelligent stock insights."
+
+## ✅ End
+"Thanks for watching. Full code is available on GitHub. Feel free to explore or extend it further!"
