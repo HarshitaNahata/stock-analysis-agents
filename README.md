@@ -52,3 +52,6 @@ See `demo_script.txt` for a video walk-through guide.
 
 ## 👨‍🔬 Author
 Harshita Nahata
+
+## Video Demonstration
+https://drive.google.com/file/d/1ylK_i2AQPv_XrPzt_uJYHkXI5Ny81TBR/view?usp=sharing
