@@ -1,4 +1,4 @@
-# 🧠 Multi-Agent Stock Analysis System using Google ADK
+# 🧠 Multi-Agent Stock Analysis System 
 
 This project is a modular multi-agent system built to answer stock-related queries using Google ADK and Alpha Vantage API.
 
